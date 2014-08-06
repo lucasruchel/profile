@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Lobster|Lato:300,400);
+
 
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
@@ -56,7 +57,7 @@ p {
 }
 .navbar-nav li a, .panel-title {
     color: #8f8f8f;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -65,11 +66,11 @@ p {
     background-color: transparent;
 }
 footer {
-    background-color: #474747;
+    
 }
 footer .container {
-    background-color: #373737;
-    min-height: 50px;
+    padding-top: 10px;
+    min-height: 56px;
 }
 footer .container h3 {
     color: #999;
@@ -89,6 +90,17 @@ footer .container p {
 }
 
 .content p {
+    
     line-height: 30px;
     font-size: 16px;
+}
+
+.whoiam p{
+    font-family: 'Lobster';
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}
+footer .media img{
+    display: inline;
 }
