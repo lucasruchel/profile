@@ -12,7 +12,7 @@ html {
     background-color: #474747;
 }
 .top {
-    background-color: #474747;
+    background-color: #FFF;
 }
 .top .navbar-brand {
     height: 50px;
@@ -27,12 +27,15 @@ html {
     padding: 0;
 }
 .banner {
-    background-color: #2ecc71;
+    background-color: #000;
+}
+.banner * {
+    text-align: center;
+    background-color: #000;
 }
 .banner .container {
-    background-color: #009b9b;
     min-height: 200px;
-    padding: 40px 30px 30px 40px;
+    padding: 40px 30px 0px 40px;
 }
 .banner .container p {
     font-size: 22px;
@@ -59,7 +62,8 @@ html {
     letter-spacing: 2px;
 }
 .navbar-nav li a:hover {
-    background-color: #373737;
+    color: #010101;
+    background-color: transparent;
 }
 .bottom {
     background-color: #474747;
@@ -83,9 +87,6 @@ html {
 }
 .navbar-toggle:hover {
     background-color: #373737;
-}
-.navbar-nav {
-    margin: 0;
 }
 
 .content p {
